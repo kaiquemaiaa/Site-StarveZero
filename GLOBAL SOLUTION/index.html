@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>global Solution</title>
+  <script>
+    window.onload = function() {
+      alert("Seja bem-vindo ao nosso site!");
+    };
+  </script>
+  <style>
+    main {
+        text-align: center;
+        width: 100%;
+        margin: 5px;
+    }
+    
+    form {
+        display: inline-block;
+        width: 450px;
+    }
+    
+    form label {
+        display:block;
+        font-size: 20px;
+    }
+    
+    form input {
+        display: block;
+        margin: 6px;
+        padding: 8px 2px;
+        width: 100%;
+    }
+    
+    /* Estilos para o modo claro */
+    body {
+      background-color: #ffffff;
+      color: #000000;
+    }
+
+    /* Estilos para o modo escuro */
+    body.dark-mode {
+      background-color: #000000;
+      color: #ffffff;
+    }
+  </style>  
+  
+</head>
+<body>
+
+    <h1>Dark Mode</h1>
+  <button id="darkModeButton">Alternar Modo</button>
+    <script src="funcionalidades/darkmode.js"></script>
+  
+    
+    <h1 id="data-hora"></h1>
+
+    <script src="funcionalidades/hora.js"></script>
+    
+  <center><h1>FORMULÁRIO</h1></center>
+    <br>
+    <br>
+    <main><form name="formulario" onsubmit="return validarFormulario()">
+    <label for="nome">Nome:</label>
+    <input type="text" name="nome" id="nome" required>
+    <br>
+    <label for="segundoNome">Telefone:</label>
+    <input type="text" name="telefone" id="telefone" required>
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" required>
+    <br>
+
+    <input type="submit" value="Enviar">
+  </form></main>
+
+</body>
+</html>
