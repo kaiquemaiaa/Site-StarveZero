@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(109, 109, 109);
+    color: white;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.header,
+.navigationHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header {
+    background-color: rgb(57, 56, 56);
+    box-shadow: 1px 1px 4px rgb(14, 14, 14);
+    height: 4.5em;
+    justify-content: space-between;
+    padding: 0 10%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.navigationHeader{
+    gap: 1.5em;
+}
+
+.navigationHeader a{
+    text-decoration: none;
+    color: #78BE20;
+    font-weight: bold;
+}
+
+.imgLogoHeader {
+    width: 230px;
+}
+
+
+h1 {
+    font-family: Oswald;
+    color: #78BE20;
+}
+
+.content {
+    padding-top: 3em;
+}
+
+
+.solucao {
+    padding-top: 80px;
+    padding-left: 5em;
+    padding-bottom: 8em;
+    width: 40%;
+    font-size: 1.5em;
+}
+
+.imagem1 {
+    padding-top: 30px;
+    padding-left: 90px;
+    border-radius: 15px;
+} 
+
+.publico {
+    padding-top: 80px;
+    padding-left: 5em;
+    padding-bottom: 8em;
+    width: 40%;
+    font-size: 1.5em;
+}
+
+.imagem2 {
+    padding-top: 30px;
+    padding-left: 90px;
+    border-radius: 15px;
+}
+
+.tecnologias {
+    padding-top: 80px;
+    padding-left: 5em;
+    padding-bottom: 8em;
+    width: 40%;
+    font-size: 1.5em;
+}
+
+.imagem3 {
+    padding-top: 30px;
+    padding-left: 90px;
+}
+
+.objetivos {
+    padding-top: 80px;
+    padding-left: 5em;
+    padding-bottom: 8em;
+    width: 40%;
+    font-size: 1.5em;
+} 
+
+.imagem4 {
+    padding-top: 30px;
+    padding-left: 90px;
+    border-radius: 15px;
+}
+
+.beneficios {
+    padding-top: 80px;
+    padding-left: 5em;
+    padding-bottom: 8em;
+    width: 40%;
+    font-size: 1.5em;
+}
+
+.imagem5 {
+    padding-top: 30px;
+    padding-left: 90px;
+    border-radius: 15px;
+}
+
+.ajudar {
+    padding-top: 50px;
+    padding-left: 5em;
+    padding-bottom: 8em;
+    width: 40%;
+    font-size: 1.5em;
+}
+
+.imagem6 {
+    padding-top: 30px;
+    padding-left: 90px;
+    border-radius: 15px;
+}
+
