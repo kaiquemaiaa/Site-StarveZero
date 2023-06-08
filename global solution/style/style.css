@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header,
+.navigationHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header {
+    box-shadow: 1px 1px 4px rgb(14, 14, 14);
+    height: 4.5em;
+    justify-content: space-between;
+    padding: 0 10%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.navigationHeader{
+    gap: 1.5em;
+}
+
+.navigationHeader a{
+    text-decoration: none;
+    color: #78BE20;
+    font-weight: bold;
+}
+
+.imgLogoHeader {
+    width: 230px;
+}
+
+
+h1 {
+    font-family: Oswald;
+    color: #78BE20;
+}
+
+.content {
+    padding-top: 3em;
+}
+
+
+.solucao {
+    padding-top: 80px;
+    padding-left: 5em;
+    padding-bottom: 8em;
+    width: 40%;
+    font-size: 1.5em;
+}
+
+.imagem1 {
+    padding-top: 30px;
+    padding-left: 90px;
+    border-radius: 15px;
+} 
+
+.publico {
+    padding-top: 80px;
+    padding-left: 5em;
+    padding-bottom: 8em;
+    width: 40%;
+    font-size: 1.5em;
+}
+
+.imagem2 {
+    padding-top: 30px;
+    padding-left: 90px;
+    border-radius: 15px;
+}
+
+.tecnologias {
+    padding-top: 80px;
+    padding-left: 5em;
+    padding-bottom: 8em;
+    width: 40%;
+    font-size: 1.5em;
+}
+
+.imagem3 {
+    padding-top: 30px;
+    padding-left: 90px;
+}
+
+.objetivos {
+    padding-top: 80px;
+    padding-left: 5em;
+    padding-bottom: 8em;
+    width: 40%;
+    font-size: 1.5em;
+} 
+
+.imagem4 {
+    padding-top: 30px;
+    padding-left: 90px;
+    border-radius: 15px;
+}
+
+.beneficios {
+    padding-top: 80px;
+    padding-left: 5em;
+    padding-bottom: 8em;
+    width: 40%;
+    font-size: 1.5em;
+}
+
+.imagem5 {
+    padding-top: 30px;
+    padding-left: 90px;
+    border-radius: 15px;
+}
+
+.ajudar {
+    padding-top: 50px;
+    padding-left: 5em;
+    padding-bottom: 8em;
+    width: 40%;
+    font-size: 1.5em;
+}
+
+.imagem6 {
+    padding-top: 30px;
+    padding-left: 90px;
+    border-radius: 15px;
+}
+
+.hora {
+    position: absolute;
+    left: 85%;
+    bottom: 85%
+  }
+
+.slideshow-container {
+    max-width: 300px;
+    position: relative;
+    margin: auto;
+}
+
+.slide {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    text-align: center;
+    width: 100%;
+    margin: 5px;
+}
+
+form {
+    display: inline-block;
+    width: 450px;
+}
+
+form label {
+    display:block;
+    font-size: 20px;
+}
+
+form input {
+    display: block;
+    margin: 4px;
+    padding: 7px 2px;
+    width: 100%;
+}
+
+form {
+      width: 300px;
+      height: 200px;
+      position: absolute;
+      top: 30%;
+      left: 80%;
+  }
+
+  .login-form {
+    width: 220px;
+    height: 200px;
+    position: absolute;
+    top: 70%;
+    left: 79%;
+}
+
+.login-form {
+  display: inline-block;
+  width: 350px;
+}
+
+.login-form label {
+  display:block;
+  font-size: 20px;
+}
+
+.login-form input {
+  display: block;
+  margin: 30px;
+  padding: 8px 2px;
+  width: 80%;
+}
+
+#imgpos {
+	position: absolute;
+	left: 80%;
+	bottom: 84%
+	} 
+
+    .slideshow-container {
+        position: absolute;
+        left: 75%;
+	    bottom: -75%
+      }
+  
+      .slideshow-container img {
+        display: none;
+        width: 300px;
+        height: 250px;
+      }
