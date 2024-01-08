@@ -1,1 +1,1 @@
-Projeto HTML, CSS e JavaScript realizado por mim em Junho/2026.
+Projeto HTML, CSS e JavaScript realizado por mim em Junho/2023.
